@@ -1,0 +1,17 @@
+/* hader */
+header {}
+header .inner {position:relative; max-width:1920px; height:100px; margin:0 auto; background:#ddd;}
+header > h1 {position:absolute; top:10px; left:10px;}
+header nav {}
+.nav_list {text-align:center; margin:0 auto; width:1000px; font-size:0; line-height:normal;}
+.nav_list li {display:inline-block;}
+.nav_list li a {font-size:13px;}
+
+/* footer */
+footer {background:#333;}
+footer .inner {width:1000px; margin:0 auto; color:#fff;}
+
+/* common */
+#wrap {max-width:1920px; min-height:calc(100% - 100px); margin:0 auto -150px;}
+#wrap:after {content:''; display:block;}
+footer, #wrap:after {height:150px;}
